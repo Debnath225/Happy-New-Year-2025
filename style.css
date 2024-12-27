@@ -78,12 +78,12 @@ input[type="text"]:focus{
     width: 175px;
     border: none;
     border-radius: 10px;
-    background-image: url();
     background-size: cover;
-    box-shadow: 3px 4px black;
+    box-shadow: 3px 5px black;
 }
 #sBtn:focus{
     box-shadow: 1px 0px black;
+    border:1px solid darkgreen;
 
 }
 footer{
