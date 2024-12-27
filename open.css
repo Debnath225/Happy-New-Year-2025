@@ -75,13 +75,12 @@ footer{
     flex-direction: column;
 }
 #goBack{
-    text-wrap:wrap;
     outline: none;
     font-size: 25px;
     color: aliceblue;
     font-family: monospace;
     height: 35px;
-    width: 100px;
+    width: 150px;
     background-color: rgb(50, 237, 100);
     border: 1px solid white;
     border-radius: 4px;
