@@ -81,8 +81,9 @@ footer{
     flex-direction: column;
 }
 #goBack{
+    padding:6px;
     outline: none;
-    font-size: 25px;
+    font-size: 28px;
     color: aliceblue;
     font-family: monospace;
     height: auto;
@@ -97,7 +98,7 @@ footer{
 #goBackc{
     text-decoration: none;
 }
-#goBackc:hover> :not(:hover){
+#goBackc:hover{
     text-decoration: underline;
 }
 #goBack:focus{
