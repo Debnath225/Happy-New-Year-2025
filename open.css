@@ -49,6 +49,9 @@ main{
     border: 3px solid rgba(250, 244, 244,0.6);
     transition: about ease-in 2s 1;
 }
+#about:hover{
+border-radious:12px 10px;
+}
 #about1{
 font-weight: 800;
     font-family: 'Brush Script';
