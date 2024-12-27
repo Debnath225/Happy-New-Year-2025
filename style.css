@@ -1,0 +1,98 @@
+
+body{
+font-family: Brush Script MT,cursive,segoe UI;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(https://paytmblogcdn.paytm.com/wp-content/uploads/2024/12/new-year.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#HappyY{
+    background-color: rgba(225,225,225,0.3);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    padding: 4px;
+    z-index: 80000;
+    color: aliceblue;
+    font-size: 35px;
+    text-shadow:  6px 4px 10px  rgba(29, 164, 242, 0.767),
+3px 5px 12px rgba(59, 55, 178, 0.978),
+8px 9px 16px rgb(29, 157, 193),
+6px 7px 20px rgb(5, 189, 128);
+}
+
+#cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chi{
+    color: aliceblue;
+    font-size: 35px;
+    font-weight: 300;
+    text-shadow:  6px 4px 10px  rgba(29, 164, 242, 0.767),
+3px 5px 12px rgba(59, 55, 178, 0.978),
+8px 9px 16px rgb(29, 157, 193),
+6px 7px 20px rgb(5, 189, 128);
+}
+
+input[type="text"]{
+    background-color: rgba(225,225,225,0.6);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    height: 48px;
+    width: 350px;
+    border-radius: 12px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none;
+}
+input[type="text"]:focus{
+    border:2px solid rgba(18, 237, 18,0.3);
+}
+#sBtn{
+    cursor: pointer;
+    color: whitesmoke;
+    text-shadow:  6px 4px 10px  rgba(107, 205, 142, 0.767),
+    3px 5px 12px rgba(121, 55, 178, 0.978),
+    8px 9px 16px rgb(10, 183, 230),
+    6px 7px 20px rgb(26, 233, 164);
+    font-weight: 600;
+    margin-left: 75px;
+    font-family: "cursive";
+    font-size: 35px;
+    height: 60px;
+    width: 175px;
+    border: none;
+    border-radius: 10px;
+    background-image: url();
+    background-size: cover;
+    box-shadow: 3px 4px black;
+}
+#sBtn:focus{
+    box-shadow: 1px 0px black;
+
+}
+footer{
+    display:flex;
+    justify-content: center;
+    align-items: baseline;
+    color: aqua;
+}
+#endL{
+font-size: xx-large;
+font-style: oblique;
+}
