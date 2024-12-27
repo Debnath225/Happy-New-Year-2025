@@ -15,7 +15,9 @@ header{
     justify-content: center;
     align-items: center;
 }
-#timeUp{
+#timeUp{background-color: rgba(225,225,225,0.3);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
     color: rgb(31, 171, 66);
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
@@ -42,7 +44,7 @@ main{
 }
 #about{
     background-color: aliceblue;
-    height:595px;
+    height:620px;
     width: 500px;
     border: 3px solid rgba(250, 244, 244,0.6);
     transition: about ease-in 2s 1;
@@ -69,6 +71,7 @@ footer{
     align-items: center;
 }
 #goBack{
+    text-wrap:wrap;
     outline: none;
     font-size: 25px;
     color: aliceblue;
