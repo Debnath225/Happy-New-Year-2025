@@ -82,8 +82,8 @@ footer{
     font-size: 25px;
     color: aliceblue;
     font-family: monospace;
-    height: 35px;
-    width: 140px;
+    height: auto;
+    width: auto;
     background-color: rgb(50, 237, 100);
     border: 1px solid white;
     border-radius: 4px;
@@ -94,7 +94,7 @@ footer{
 #goBackc{
     text-decoration: none;
 }
-#goBackc:hover{
+#goBackc:hover> :not(:hover){
     text-decoration: underline;
 }
 #goBack:focus{
