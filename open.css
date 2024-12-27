@@ -42,7 +42,7 @@ main{
 }
 #about{
     background-color: aliceblue;
-    height:550px;
+    height:580px;
     width: 500px;
     border: 3px solid rgba(250, 244, 244,0.6);
     transition: about ease-in 2s 1;
