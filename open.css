@@ -15,7 +15,9 @@ header{
     justify-content: center;
     align-items: center;
 }
-#timeUp{background-color: rgba(225,225,225,0.3);
+#timeUp{
+    padding:5px;
+    background-color: rgba(225,225,225,0.5);
     -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
     color: rgb(31, 171, 66);
