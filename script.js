@@ -12,6 +12,7 @@ function onSubmit(){
     if(fVal==0 && lVal==0){
         noEntry.innerHTML="Access denied";
         alert('Happy New Year 2025  please enter your name!');
+      return 0;
     }
     else{
         getValue.action="open.html";
