@@ -9,10 +9,10 @@ const noEntry = document.getElementById("noEntry");
 function onSubmit(){
     if(fName.value==0&&lName.value==0){
         noEntry.innerHTML="Access denied";
-        return 0;
+        alart('Happy New Year 2025 and please enter your name');
     }
     else{
         getValue.action="open.html";
-
+        alart('Happy New Year 2025');
     }
 }
