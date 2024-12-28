@@ -96,6 +96,7 @@ main{
 100%{background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReDNPn05Dk8EWPYjbwa3Sv4u-aCMczZm9wxQ&s);}
 }
 #about1{
+    color:white;
     height:auto;
     background-color: rgba(225,225,225,0.3);
     -webkit-backdrop-filter: blur(2px);
