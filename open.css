@@ -105,6 +105,7 @@ main{
     backdrop-filter: blur(2px);
 font-weight: 800;
     font-family: 'Courier';
+    font-style: oblique;
     font-size: 28px;
     text-wrap: wrap;
 }
