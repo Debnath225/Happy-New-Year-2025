@@ -7,7 +7,7 @@ const noEntry = document.getElementById("noEntry");
 
 
 function onSubmit(){
-    if(fName.value==0 && lName.value==0){
+    if(fName.value==="0" && lName.value==="0"){
         noEntry.innerHTML="Access denied";
         alert('Happy New Year 2025 and please enter your name');
         return 0;
