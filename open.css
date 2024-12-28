@@ -16,8 +16,8 @@ header{
     align-items: center;
 }
 #timeUp{
-    padding:5px;
-    border-radious:4px;
+    padding:6px;
+    border-radious:8px;
     background-color: rgba(225,225,225,0.7);
     -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
@@ -102,7 +102,7 @@ main{
     -webkit-backdrop-filter: blur(2px);
     backdrop-filter: blur(2px);
 font-weight: 800;
-    font-family: 'Brush Script';
+    font-family: 'Courier';
     font-size: 28px;
     text-wrap: wrap;
 }
