@@ -126,9 +126,7 @@ footer{
     flex-direction: column;
 }
 #goBack{
-    height:30px;
-    width:60px;
-    padding:0px;
+    padding:8px;
     outline: none;
     font-size: 28px;
     color: aliceblue;
@@ -144,8 +142,6 @@ footer{
 }
 #goBackc{
     text-decoration: none;
-    height:100%;
-    width:100%;
 }
 #goBackc:hover{
     text-decoration: underline;
