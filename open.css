@@ -82,7 +82,8 @@ main{
     background-repeat: no-repeat;
     background-size:cover;
     border: 3px solid rgba(250, 244, 244,0.6);
-    animation: about slide 20s infinite;
+    animation: about slide-in 20s infinite;
+    animation-direction: alternate;
 }
 @keyframes about{
 0%{background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWjMMIBrAYyynbAyuHFmL9wBk8N33Fqtr8qw&s);}
