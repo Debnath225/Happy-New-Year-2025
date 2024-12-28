@@ -142,6 +142,8 @@ footer{
 }
 #goBackc{
     text-decoration: none;
+    height:100%;
+    width:100%;
 }
 #goBackc:hover{
     text-decoration: underline;
