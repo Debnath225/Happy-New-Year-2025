@@ -77,10 +77,12 @@ main{
 #about{
     background-color: aliceblue;
     aspect-ratio:16/9;
-    height:620px;
+    height:640px;
     width: 500px;
+    background-repeat: no-repeat;
+    background-size:cover;
     border: 3px solid rgba(250, 244, 244,0.6);
-    animation: about ease-in 15s infinite;
+    animation: about ease-in 21s infinite;
 }
 @keyframes about{
 0%{background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWjMMIBrAYyynbAyuHFmL9wBk8N33Fqtr8qw&s);}
