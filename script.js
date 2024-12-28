@@ -13,8 +13,8 @@ function onSubmit(){
         noEntry.innerHTML="Access denied";
         alert('Happy New Year 2025  please enter your name!');
     }
-    elseif(fVal != 0 && lVal != 0){
+    else{
         getValue.action="open.html";
-        alert('Happy New Year 2025');
+        alert(`Happy New Year 2025 fVal`);
     }
 }
