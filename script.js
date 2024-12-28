@@ -12,7 +12,7 @@ function onSubmit(){
         return 0;
     }
     else{
-        getValue.action="/Open_Page/open.html";
+        getValue.action="open.html";
 
     }
 }
