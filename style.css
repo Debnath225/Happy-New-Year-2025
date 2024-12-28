@@ -65,7 +65,7 @@ input[type="text"]:focus{
 }
 #sBtn{
     cursor: pointer;
-    color: whitesmoke;
+    color: aqua;
     text-shadow:  6px 4px 10px  rgba(107, 205, 142, 0.767),
     3px 5px 12px rgba(121, 55, 178, 0.978),
     8px 9px 16px rgb(10, 183, 230),
@@ -79,11 +79,12 @@ input[type="text"]:focus{
     border: none;
     border-radius: 10px;
     background-size: cover;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    filter: drop-shadow(0 0 0.80rem white);
+    border:1px solid gray;
 }
 #sBtn:focus{
     border:1px solid darkgreen;
-
+    filter: drop-shadow(0 0 0.4rem rgb(00,00,00));
 }
 footer{
     display:flex;
