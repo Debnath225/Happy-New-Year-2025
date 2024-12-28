@@ -50,10 +50,22 @@ main{
     height:620px;
     width: 500px;
     border: 3px solid rgba(250, 244, 244,0.6);
-    transition: about ease-in 2s 1;
+    animation: about ease-in 2s 1;
 }
 #about:hover{
 border-radious:12px 10px;
+}
+@keyframes about{
+10%{url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSwY-qhfb0k1DfVBG8h9K_2TQaLiWhQIZwzKnEj1G2DKqdwD1cHUALaJ8&s=10);}
+20%{url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbbD0RHA0SQL_mT6MrMaYbr_4MnO4NTRD0WA&usqp=CAU);}
+30%{url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcxPoXdEE42dVk-1Esnhn5u_ZcbpHmyeSkAw&usqp=CAU);}
+40%{url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcnE8U4ItdOxPUHWH07YHRYXvf182Kcf5ZgQ&usqp=CAU);}
+50%{url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD2GdUXnQ_v4Bx8Etr6pn81hcJpQi1JzZnyQ&usqp=CAU);}
+60%{url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIygtDqdlJoMUsvz4USkJkl9BPzKqvyvwfdQ&usqp=CAU);}
+70%{url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJadawJ98KVZ8gb4nkEvdCNEgeO6D9tj8N-w&usqp=CAU);}
+80%{url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcrHrZ5VaKp0I1EHA7O589MP9xDSpc6_GYEw&usqp=CAU);}
+90%{url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRavYG3rpwwTGgYdCV28iRmaKxfOTDMnjb3kw&usqp=CAU);}
+100%{url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReDNPn05Dk8EWPYjbwa3Sv4u-aCMczZm9wxQ&s);}
 }
 #about1{
     background-color: rgba(225,225,225,0.3);
