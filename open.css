@@ -82,10 +82,8 @@ main{
     border: 3px solid rgba(250, 244, 244,0.6);
     animation: about ease-in 15s infinite;
 }
-#about:hover{
-border-radious:12px 10px;
-}
 @keyframes about{
+0%{background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWjMMIBrAYyynbAyuHFmL9wBk8N33Fqtr8qw&s);}
 10%{background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSwY-qhfb0k1DfVBG8h9K_2TQaLiWhQIZwzKnEj1G2DKqdwD1cHUALaJ8&s=10);}
 20%{background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbbD0RHA0SQL_mT6MrMaYbr_4MnO4NTRD0WA&usqp=CAU);}
 30%{background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcxPoXdEE42dVk-1Esnhn5u_ZcbpHmyeSkAw&usqp=CAU);}
@@ -98,9 +96,10 @@ border-radious:12px 10px;
 100%{background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReDNPn05Dk8EWPYjbwa3Sv4u-aCMczZm9wxQ&s);}
 }
 #about1{
+    height:auto;
     background-color: rgba(225,225,225,0.3);
-    -webkit-backdrop-filter: blur(4px);
-    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
 font-weight: 800;
     font-family: 'Brush Script';
     font-size: 28px;
