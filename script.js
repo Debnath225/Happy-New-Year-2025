@@ -16,6 +16,6 @@ function onSubmit(){
     }
     else{
         getValue.action="open.html";
-        alert(`Happy New Year 2025 fVal`);
+        alert(`Happy New Year 2025 ${fVal}`);
     }
 }
