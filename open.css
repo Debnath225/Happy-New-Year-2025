@@ -17,7 +17,8 @@ header{
 }
 #timeUp{
     padding:5px;
-    background-color: rgba(225,225,225,0.5);
+    border-radious:4px;
+    background-color: rgba(225,225,225,0.7);
     -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
     color: rgb(31, 171, 66);
