@@ -9,6 +9,7 @@ background-size: cover;
 animation-name:imageIn;
 animation-duration:20s;
 animation-iteration-count: infinite;
+animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 @keyframes imageIn{
 0%{background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWjMMIBrAYyynbAyuHFmL9wBk8N33Fqtr8qw&s);}
