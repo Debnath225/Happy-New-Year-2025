@@ -177,3 +177,6 @@ footer{
 #goBack:focus{
     background-color: rgba(246, 255, 0, 0.784);
 }
+#song{
+    visibility: hidden;
+}
