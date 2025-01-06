@@ -120,7 +120,7 @@ font-style: oblique;
 }
 @keyframes form{
     from{
-        translate: 85vw 0;
+        translate: 85vw 2;
         scale: 150% 1;
     }
     to{
