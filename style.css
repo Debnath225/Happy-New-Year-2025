@@ -116,11 +116,11 @@ font-size: xx-large;
 font-style: oblique;
 }
 #getValue{
-    animation: form 2s 1 ease-in-out;
+    animation: form 1s 1 ease-in-out;
 }
 @keyframes form{
     from{
-        translate: 85vw 2;
+        translate: 85vw 0;
         scale: 150% 1;
     }
     to{
