@@ -59,7 +59,7 @@ input[type="text"]{
     box-sizing: border-box;
     border: 1px solid #555;
     outline: none;
-    animation: ibox 2s 1 ease-in;
+    animation: ibox 1s 1 ease-in;
 
 }
 @keyframes ibox{
