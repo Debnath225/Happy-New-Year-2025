@@ -59,9 +59,23 @@ input[type="text"]{
     box-sizing: border-box;
     border: 1px solid #555;
     outline: none;
+    animation: ibox 2s 1 ease-in;
+
 }
+@keyframes ibox{
+   0%{height: 10px;}
+
+   100%{height: 48px;}
+}
+
 input[type="text"]:focus{
+ z-index: 80000;
     border:2px solid rgba(18, 237, 18,0.3);
+   box-shadow: inset 0 0 0.20rem rgba(26, 28, 26, 0.3);
+
+}
+input[type="text"]:hover{
+     filter: drop-shadow(0 0 1rem rgb(202, 201, 201)); 
 }
 #sBtn{
     cursor: pointer;
@@ -81,10 +95,15 @@ input[type="text"]:focus{
     background-size: cover;
     filter: drop-shadow(0 0 0.80rem white);
     border:1px solid gray;
+    animation: ibox 2s 1 ease-in;
+
 }
 #sBtn:focus{
     border:1px solid darkgreen;
     filter: drop-shadow(0 0 0.4rem rgb(00,00,00));
+}
+#sBtn:hover{
+   box-shadow: inset 0 0 0.20rem rgba(26, 28, 26, 0.3); 
 }
 footer{
     display:flex;
@@ -95,4 +114,17 @@ footer{
 #endL{
 font-size: xx-large;
 font-style: oblique;
+}
+#getValue{
+    animation: form 2s 1 ease-in-out;
+}
+@keyframes form{
+    from{
+        translate: 85vw 0;
+        scale: 150% 1;
+    }
+    to{
+        translate: 0 0;
+        scale: 100% 1;
+    }
 }
